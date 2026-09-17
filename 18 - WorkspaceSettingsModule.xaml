@@ -1,0 +1,14 @@
+<UserControl x:Class="WorkspaceSettingsModule" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<GroupBox Header="Workspace" Style="{StaticResource DarkGroupBox}">
+    <Grid>
+        <Grid.ColumnDefinitions><ColumnDefinition Width="160"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Save Layout"/>
+        <CheckBox Grid.Row="0" Grid.Column="1" Style="{StaticResource DarkCheckBox}" IsChecked="{Binding Settings.Workspace.SaveLayout}"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Load Layout"/>
+        <CheckBox Grid.Row="1" Grid.Column="1" Style="{StaticResource DarkCheckBox}" IsChecked="{Binding Settings.Workspace.LoadLayout}"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Reset Layout"/>
+        <CheckBox Grid.Row="2" Grid.Column="1" Style="{StaticResource DarkCheckBox}" IsChecked="{Binding Settings.Workspace.ResetLayout}"/>
+    </Grid>
+</GroupBox>
+</UserControl>
