@@ -1,0 +1,17 @@
+09 - ChartSettingsPanel — 10 UI Modules
+
+1. ChartSettingsModule.xaml
+2. AxesSettingsModule.xaml
+3. CandleSettingsModule.xaml
+4. GridBackgroundSettingsModule.xaml
+5. DrawingToolsSettingsModule.xaml
+6. AnalyticalModulesSettingsModule.xaml
+7. HudOverlaySettingsModule.xaml
+8. PerformanceSettingsModule.xaml
+9. WorkspaceSettingsModule.xaml
+10. AdvancedSettingsModule.xaml
+
+Parent panel:
+ChartSettingsPanel.xaml
+
+Source: The supplied ChartSettingsPanel XAML is to be decomposed into these 10 independent UserControl modules. The original bindings and settings structure are preserved during decomposition.
